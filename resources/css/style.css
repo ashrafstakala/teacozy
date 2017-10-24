@@ -2,11 +2,7 @@ header {
   background-color: black;
   border-bottom: 1px solid seashell;
   height: 69px;
-  display: flex;
   align-items: center;
-  font-family: Helvetica;
-  font-size: 22px;
-  color: seashell;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -24,34 +20,28 @@ header nav {
 }
 a {
   color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
 }
 nav {
   text-align: right;
   flex-grow: 1;
 }
 .main-container {
-  display: flex;
-  background-color: black;
-  flex-direction: column;
-  padding-top: 69px;
-  margin: auto;
-  justify-content: center;
-}
-.mission {
   width: 1200px;
-  height: 700px;
+  opacity: 0.9;
+  margin: auto;
+  padding-top: 69px;
+}
+#mission {
   background-image: url(../images/img-mission-background.jpg);
-  padding-top: 70px:
+  padding-top: 70px;
+  height: 700px;
 }
-.locations {
-  display: flex;
-  width: 1100px;
-  height: 500px;
-  background-image: url(../images/img-locations-background.jpg);
-  align-content: center;
-}
-h2 {
-  color: white;
+h2, h4 {
+  color: seashell;
+  padding: 10px;
+  margin: 0;
 }
 .flex-container {
   display: flex;
@@ -61,4 +51,19 @@ h2 {
 body {
   margin: 0;
   text-align: center;
+  background-color: black;
+}
+#mission .mission-statement {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+#featured-tea {
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+div {
+  display: block;
 }
