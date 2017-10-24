@@ -7,8 +7,9 @@ header {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
   width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 .logo {
   height: 50px;
@@ -27,4 +28,37 @@ a {
 nav {
   text-align: right;
   flex-grow: 1;
+}
+.main-container {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  padding-top: 69px;
+  margin: auto;
+  justify-content: center;
+}
+.mission {
+  width: 1200px;
+  height: 700px;
+  background-image: url(../images/img-mission-background.jpg);
+  padding-top: 70px:
+}
+.locations {
+  display: flex;
+  width: 1100px;
+  height: 500px;
+  background-image: url(../images/img-locations-background.jpg);
+  align-content: center;
+}
+h2 {
+  color: white;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+body {
+  margin: 0;
+  text-align: center;
 }
