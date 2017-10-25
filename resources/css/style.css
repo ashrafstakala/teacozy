@@ -86,3 +86,24 @@ body {
   text-align: center;
   padding: 5px;
 }
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  padding-top: 70px;
+  height: 500px;
+}
+.location {
+  width: 300px;
+  margin: 5px 20px;
+  padding-top: 15px;
+  opacity: 1px;
+  background-color: black;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact {
+  height: 200px;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
